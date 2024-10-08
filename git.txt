@@ -1,0 +1,73 @@
+#Basic Configurations.
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+#to check
+git config --global --list
+
+#VS code setup
+Ctrl + Shift + P
+GitHub: Sign In
+
+# Getting started.
+
+git init # Initialize a new Git repository
+
+git status  # Check the status of the working directory
+
+git ignore - .gitignore
+
+
+git clone <repository-url> # Clone a remote repository
+
+
+git add <file> # Stage changes in a file
+
+
+git add .  # Stage all changes in the current directory
+
+git reset #undo staged file
+
+
+git commit -m "Your commit message"  # Commit staged changes with a message
+
+
+git log # Show commit history
+
+git diff # Show changes between commits, commit and working tree, etc.
+
+# GitHub
+# Show remote repositories
+git remote -v
+
+# Remove a remote repository
+git remote remove <remote-repo-link>
+
+# Push local changes to the remote repository
+git push origin <branch-name> -u
+
+# Fetch changes from the remote repository
+git fetch
+
+# Pull changes from the remote repository and merge
+git pull
+
+#branch
+
+git branch #display all the branch
+
+git branch <branch-name> #creates the branch name
+
+git checkout <branch-name> # switch to the specified branch
+
+git checkout -b <branch-name> # creates the branch and switch to that branch
+
+git branch -d <branch-name>
+
+git push origin --delete <branch-name>
+
+
+## Merge
+
+git merge <branch-name>
+
+git diff # shows difference b/w the branches
