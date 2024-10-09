@@ -1,1 +1,1 @@
-# Clone this repo
+# Clone this repository
